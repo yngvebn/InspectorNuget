@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="NugetConfig.cs" />
     <Compile Include="PackagesConfig.cs" />
+    <Compile Include="ReferencedAssembly.cs" />
     <Compile Include="VsProject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VsSolution.cs" />

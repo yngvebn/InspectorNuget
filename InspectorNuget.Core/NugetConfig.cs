@@ -18,5 +18,6 @@ namespace InspectorNuget.Core
             
             return new NugetConfig(file);
         }
+
     }
 }

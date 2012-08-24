@@ -45,6 +45,7 @@ namespace InspectorNuget.Core
 
             var projectName = segments[0].Split('=')[1];
             var projectPath = segments[1].Replace("\"", "").Trim();
+            if(projectPath.EndsWith(".csproj"))
             Projects.Add(new VsProject(projectName, Path.Combine(_solutionPath, projectPath)));
         }
 
